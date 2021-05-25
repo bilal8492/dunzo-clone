@@ -51,9 +51,6 @@
 .down-icon {
   font-size: 12px;
 }
-.set-loc {
-  /* margin-bottom: 5px; */
-}
 .dunzo-logo {
   cursor: pointer;
   /* margin-top: 10px; */
@@ -81,16 +78,14 @@
   line-height: 16px;
   letter-spacing: 0.4px;
 }
+.section-right > span:hover {
+  color: rgb(0, 179, 122);
+}
 .right-text {
   padding: 10px;
   background: none;
   border: none;
   -webkit-tap-highlight-color: transparent;
-  /* display: flex; */
-  /* -webkit-box-align: center; */
-  /* align-items: center; */
-  /* -webkit-box-pack: center; */
-  /* justify-content: center; */
 }
 .signin-btn {
   cursor: pointer;

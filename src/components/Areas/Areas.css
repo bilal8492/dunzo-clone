@@ -1,3 +1,7 @@
+.background {
+  background-color: #f9fafc;
+  height: 345px;
+}
 .area-container {
   width: 70%;
   margin: 0 auto;
@@ -10,4 +14,30 @@
   line-height: normal;
   letter-spacing: normal;
   margin-top: 48px;
+}
+.areas-name {
+  flex-direction: row;
+  /* gap: 10px; */
+  height: 270px;
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 32px 24px 48px; */
+  font-weight: 500;
+}
+.area-a-p {
+  box-sizing: border-box;
+  width: 25%;
+}
+.area-a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #87818e;
+}
+.area-p {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(111, 117, 136);
+  padding: 8px 0 0 0;
+  line-height: normal;
+  letter-spacing: normal;
 }
