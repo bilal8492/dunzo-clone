@@ -1,0 +1,13 @@
+.area-container {
+  width: 70%;
+  margin: 0 auto;
+}
+.area-container > p {
+  margin-bottom: 4px;
+  color: rgb(15, 25, 56);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: normal;
+  margin-top: 48px;
+}

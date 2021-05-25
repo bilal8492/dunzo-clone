@@ -8,6 +8,7 @@ import { ContentB } from "./components/ContentB/ContentB";
 import SmallCardContainer from "./components/SmallCardContainer/SmallCardContainer";
 import { CallOut2 } from "./components/CallOut2/CallOut2";
 import { DownloadDunzo } from "./components/DownloadDunzo/DownloadDunzo";
+import { Areas } from "./components/Areas/Areas";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <SmallCardContainer />
       <ContentB />
       <DownloadDunzo />
+      <Areas />
     </div>
   );
 }
