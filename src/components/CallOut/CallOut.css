@@ -1,0 +1,10 @@
+.callOut-container {
+  width: 70%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 16px 0px;
+  grid-template-areas: ". . . .";
+  margin: 0 auto;
+  margin-top: 48px;
+}

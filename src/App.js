@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./components/Header/Header";
+import ContentA from "./components/ContentA/ContentA";
+import CallOut from "./components/CallOut/CallOut";
+import { SmallCard } from "./components/SmallCard/SmallCard";
+import { ContentB } from "./components/ContentB/ContentB";
+import SmallCardContainer from "./components/SmallCardContainer/SmallCardContainer";
+import { CallOut2 } from "./components/CallOut2/CallOut2";
+import { DownloadDunzo } from "./components/DownloadDunzo/DownloadDunzo";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <ContentA />
+      <CallOut />
+      <SmallCardContainer />
+      <ContentB />
+      <DownloadDunzo />
     </div>
   );
 }

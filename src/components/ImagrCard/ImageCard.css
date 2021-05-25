@@ -1,0 +1,7 @@
+.imageCard img {
+  cursor: pointer;
+  border-radius: 8px;
+  box-sizing: content-box;
+  width: 244px;
+  height: 180px;
+}

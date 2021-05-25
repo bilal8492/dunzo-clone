@@ -1,0 +1,103 @@
+.header-container {
+  background-color: #fff;
+  height: 72px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.header-content {
+  /* border: 2px solid black; */
+  position: relative;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 auto;
+}
+.section-left {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 0;
+}
+
+.location-icon {
+  margin-left: 46px;
+  font-weight: bold;
+}
+.location-icon,
+.down-icon,
+.section-left > span {
+  margin-right: 5px;
+  cursor: pointer;
+  /* margin-bottom: 5px; */
+}
+.section-left > span {
+  color: rgb(15, 25, 56);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-weight: 600;
+  line-height: 24px;
+  overflow: unset;
+  font-weight: 500;
+  font-size: 14px;
+}
+.location-icon,
+.down-icon {
+  color: rgb(0, 179, 122);
+}
+.down-icon {
+  font-size: 12px;
+}
+.set-loc {
+  /* margin-bottom: 5px; */
+}
+.dunzo-logo {
+  cursor: pointer;
+  /* margin-top: 10px; */
+  /* display: inline-block; */
+}
+.section-right {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+}
+.section-right > span,
+.section-right svg,
+.section-right button {
+  margin-right: 30px;
+}
+.section-right > svg {
+  cursor: pointer;
+}
+.section-right > span {
+  cursor: pointer;
+  color: rgb(23, 30, 48);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+.right-text {
+  padding: 10px;
+  background: none;
+  border: none;
+  -webkit-tap-highlight-color: transparent;
+  /* display: flex; */
+  /* -webkit-box-align: center; */
+  /* align-items: center; */
+  /* -webkit-box-pack: center; */
+  /* justify-content: center; */
+}
+.signin-btn {
+  cursor: pointer;
+  padding: 8px 20px;
+  border-radius: 30px;
+  background: rgb(0, 210, 144);
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+}

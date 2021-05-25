@@ -1,0 +1,21 @@
+.b-container {
+  background-color: rgb(255, 255, 255);
+  margin-top: 48px;
+  height: 553px;
+  /* height: auto; */
+  width: 100%;
+}
+.b-content {
+  width: 70%;
+  margin: 0 auto;
+}
+.b-content > p {
+  margin-top: 48px;
+  display: inline-block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  color: rgb(15, 25, 56);
+  padding-bottom: 8px;
+}
