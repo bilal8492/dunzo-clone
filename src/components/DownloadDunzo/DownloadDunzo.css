@@ -1,0 +1,52 @@
+.dunzo-container {
+  position: relative;
+  background-color: #f0f2f7;
+  width: 100%;
+  height: 172px;
+}
+.dunzo-link {
+  width: 70%;
+  margin: 0 auto;
+}
+.phone {
+  position: absolute;
+  bottom: 0;
+  left: 33%;
+}
+.app-link {
+  top: 20%;
+  right: 27%;
+  position: absolute;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.and-app {
+  position: absolute;
+  left: 0;
+  /* width: 25%; */
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.apple {
+  margin-left: 10px;
+}
+.irbvCt {
+  font-style: normal;
+  font-size: 20px;
+  /* margin-bottom: 16px; */
+  opacity: 0.9;
+  font-weight: 600;
+  color: rgb(23, 30, 48);
+  line-height: normal;
+  letter-spacing: normal;
+}
+.kdbvtR {
+  font-weight: 600;
+  color: rgb(23, 30, 48);
+  line-height: normal;
+  letter-spacing: normal;
+}
