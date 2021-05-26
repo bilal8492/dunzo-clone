@@ -10,7 +10,7 @@
   .callOut-container {
     margin-top: 15px;
     width: 90%;
-    column-gap: 5%;
+    column-gap: 10px;
     row-gap: 10px;
     display: flex;
   }
