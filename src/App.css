@@ -6,3 +6,10 @@
 body {
   background-color: #f7fdfa;
 }
+@media only screen and (max-width: 600px) {
+  .App {
+    /* position: fixed; */
+    /* width: 95%; */
+    /* display: contents; */
+  }
+}

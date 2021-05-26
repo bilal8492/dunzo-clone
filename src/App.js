@@ -9,12 +9,14 @@ import SmallCardContainer from "./components/SmallCardContainer/SmallCardContain
 import { CallOut2 } from "./components/CallOut2/CallOut2";
 import { DownloadDunzo } from "./components/DownloadDunzo/DownloadDunzo";
 import { Areas } from "./components/Areas/Areas";
+import { EssentialsP } from "./components/EssentialsP/EssentialsP";
 
 function App() {
   return (
     <div className="App">
       <Header />
       <ContentA />
+      <EssentialsP />
       <CallOut />
       <SmallCardContainer />
       <ContentB />

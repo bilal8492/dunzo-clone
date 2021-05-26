@@ -1,7 +1,7 @@
 .header-container {
   background-color: #fff;
   height: 72px;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   top: 0;
   z-index: 1;
@@ -96,4 +96,30 @@
   color: #fff;
   font-weight: bold;
   font-size: 14px;
+}
+@media only screen and (max-width: 600px) {
+  .header-content {
+    width: 90%;
+    justify-content: start;
+  }
+  .signin-btn {
+    background-color: #fff;
+    font-weight: normal;
+    color: black;
+    padding: 0;
+  }
+  .section-right {
+    position: absolute;
+    right: 0;
+  }
+  .dunzo-logo {
+    display: none;
+  }
+
+  .section-left {
+    left: -40px;
+  }
+  .section-right > span {
+    display: none;
+  }
 }

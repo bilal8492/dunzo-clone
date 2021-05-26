@@ -1,0 +1,20 @@
+.p-container {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .p-container {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .p-container {
+    font-style: normal;
+    font-weight: 600;
+    color: rgb(15, 25, 56);
+    font-size: 16px;
+    line-height: 18px;
+    padding-bottom: 0px;
+    letter-spacing: normal;
+  }
+}
