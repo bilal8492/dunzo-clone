@@ -5,7 +5,7 @@
   width: 244px;
   height: 180px;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 823px) {
   .imageCard img {
     width: 163px;
     height: 120px;

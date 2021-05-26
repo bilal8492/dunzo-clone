@@ -43,7 +43,7 @@
 .container-text {
   margin-top: 32px;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 823px) {
   .a-container {
     display: none;
   }

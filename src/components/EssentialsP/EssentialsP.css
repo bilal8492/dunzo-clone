@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 823px) {
   .p-container {
     display: block;
     width: 90%;

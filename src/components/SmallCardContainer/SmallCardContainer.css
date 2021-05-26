@@ -7,7 +7,7 @@
 
   /* box-sizing: border-box; */
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 823px) {
   .small-container {
     width: 90%;
   }
